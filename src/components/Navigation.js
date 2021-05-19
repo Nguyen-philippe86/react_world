@@ -5,10 +5,10 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <NavLink exact to='/' activeClassName='nav-active'>
-                Accueil
+                Home
             </NavLink>
             <NavLink exact to='/a-propos' activeClassName='nav-active'>
-                À propos
+                About
             </NavLink>
         </div>
     );
